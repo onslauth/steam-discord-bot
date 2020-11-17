@@ -1,0 +1,2 @@
+git+https://github.com/AngellusMortis/python-valve
+discord.py==1.5.1
