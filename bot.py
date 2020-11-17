@@ -70,7 +70,7 @@ class Bot( discord.Client ):
 		if len( words ) < 4:
 			reply = "Error: invalid parameters\n"
 			reply += "  Usage:\n    @{} rcon <server-name> <rcon-command>\n".format( self.user.name )
-			reply += "  E.g:\n    @P{} rcon ark-server-name listplayers\n".format( self.user.name )
+			reply += "  E.g:\n    @{} rcon ark-server-name listplayers\n".format( self.user.name )
 			await message.channel.send( reply )
 			return
 
